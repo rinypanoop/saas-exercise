@@ -56,10 +56,7 @@ public class Upload extends HttpServlet {
     		
     		RequestDispatcher dispatcher = getServletContext()
     			      .getRequestDispatcher("/labels.jsp");
-    			    dispatcher.forward(req, res);
-    		
-
-        	
+    			    dispatcher.forward(req, res);	
         }
     }
     
